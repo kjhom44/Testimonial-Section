@@ -1,0 +1,72 @@
+body {
+  color: hsl(300, 43%, 22%);
+}
+
+/* Margin for tablets, phones 992px and down */
+@media (max-width: 992px) {
+  .testimonial-section {
+    margin: 3.5rem 1rem;
+  }
+  body {
+    text-align: center;
+  }
+}
+
+/* Larger margin for desktops 992px and up */
+@media (min-width: 992px) {
+  .testimonial-section {
+    margin: 4.5rem;
+  }
+}
+
+
+.card {
+  border-radius: 7px;
+  border-style: none;
+  margin: 10px 0;
+}
+
+/* Star ratings block */
+
+.star-card {
+  background-color: hsl(300, 24%, 96%);
+}
+
+
+/*
+@media (min-width: 992px) {
+  .block-2 {
+    margin-left: -20px;
+  }
+} */
+
+/* TEMPORARY */
+.star-text {
+  padding-top: 15px;
+}
+
+.star {
+  margin: 16px 2px 0;
+}
+
+/* Testimonials block */
+.testimonial-row {
+  margin-top: 2rem;
+}
+
+.testimonial-card {
+  background-color: hsl(300, 43%, 22%);
+  color: #fff;
+  padding: 25px;
+}
+
+.customer-img {
+  border-radius: 100%;
+  margin: 10px;
+  width: 50px;
+}
+
+.customer-info {
+  padding-top: 5px;
+  text-align: left;
+}
