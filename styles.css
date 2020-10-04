@@ -1,5 +1,16 @@
 body {
   color: hsl(300, 43%, 22%);
+  font-family: 'Spartan', sans-serif;
+  font-size: 15px;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+p {
+  color: hsl(303, 10%, 53%);
+  font-weight: 500;
 }
 
 /* Margin for tablets, phones 992px and down */
@@ -7,6 +18,7 @@ body {
   .testimonial-section {
     margin: 3.5rem 1rem;
   }
+
   body {
     text-align: center;
   }
@@ -19,37 +31,48 @@ body {
   }
 }
 
-
 .card {
   border-radius: 7px;
   border-style: none;
-  margin: 10px 0;
+  /* margin: 10px 10px; */
 }
 
 /* Star ratings block */
-
 .star-card {
   background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  margin: 15px;
 }
 
-
-/*
-@media (min-width: 992px) {
-  .block-2 {
-    margin-left: -20px;
+/* Larger margin for desktops 992px and up */
+@media (min-width:992px) {
+  .card-1 {
+    margin-right: 100px;
   }
-} */
+  .card-2 {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .card-3 {
+    margin-left: 100px;
+    margin-right: 0;
+  }
+}
 
-/* TEMPORARY */
 .star-text {
-  padding-top: 15px;
+  font-weight: bold;
+  padding: 15px 5px;
+}
+
+.star-images {
+  padding: 0 25px 0;
 }
 
 .star {
   margin: 16px 2px 0;
 }
 
-/* Testimonials block */
+/* Testimonials blocks */
 .testimonial-row {
   margin-top: 2rem;
 }
@@ -57,16 +80,33 @@ body {
 .testimonial-card {
   background-color: hsl(300, 43%, 22%);
   color: #fff;
-  padding: 25px;
+  font-size: 14px;
+  padding: 30px;
+}
+
+/* customer block contains image, name and buyer status */
+.customer-block {
+  padding-bottom: 25px;
 }
 
 .customer-img {
   border-radius: 100%;
-  margin: 10px;
-  width: 50px;
+  width: 40px;
 }
 
-.customer-info {
-  padding-top: 5px;
+.customer-text {
   text-align: left;
+}
+
+.customer-name {
+  font-weight: bold;
+}
+
+.customer-type {
+  color: hsl(333, 80%, 67%);
+}
+
+.customer-quote {
+  color: #fde0fe;
+  font-weight: 400;
 }
